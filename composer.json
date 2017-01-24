@@ -1,0 +1,75 @@
+{
+    "name": "mozgbrasil/framework-php56",
+    "description": "Mozg API",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["cerebrum", "mozg", "magento", "magento2", "framework", "ubuntu", "php", "mysql"],
+    "homepage": "http://mozg.com.br",
+    "time": "2017-01-24 16:39:36",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mozg",
+            "email": "suporte@mozg.com.br",
+            "homepage": "http://mozg.com.br",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "suporte@mozg.com.br",
+        "issues": "https://github.com/mozgbrasil/framework-php56/issues",
+        "forum": "http://mozg.com.br/forums/view/1",
+        "wiki": "http://wiki.mozg.com.br",
+        "irc": "irc://irc.freenode.org/mozgbrasil",
+        "source": "https://github.com/mozgbrasil/framework-php56",
+        "docs": "https://github.com/mozgbrasil/framework-php56/wiki",
+        "rss": "https://mozg.com.br/feed.xml"
+    },
+    "require" : {
+        "php": ">=5.5",
+        "ext-zend-guard-loader": "*",
+        "ext-spl": "*",
+        "ext-dom": "*",
+        "ext-simplexml": "*",
+        "ext-mcrypt": "*",
+        "ext-hash": "*",
+        "ext-curl": "*",
+        "ext-soap": "*",
+        "ext-iconv": "*",
+        "ext-gd": "*",
+        "ext-openssl": "*",
+        "lib-libxml": "*",
+        "ext-pdo" : "*",
+        "ext-sockets" : "*",
+        "ext-sqlite3" : "*",
+        "zendframework/zend-debug": "*",
+        "zendframework/zend-escaper": "*",
+        "zendframework/zend-log": "*",
+        "zendframework/zend-validator": "*",
+        "zendframework/zend-config": "*",
+        "sebastian/diff": "*",
+        "sunra/dbug": "*",
+        "symfony/var-dumper": "*",
+        "stavarengo/php-sigep": "*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "*",
+        "pdepend/pdepend": "*",
+        "sjparkinson/static-review": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "lusitanian/oauth": "*"
+    },
+    "suggest": {
+        "phpunit/phpunit": "The PHP Unit Testing framework."
+    },
+    "autoload": {
+        "psr-4": {
+            "Mozg\\Framework\\": "src/"
+        }
+    }
+}
